@@ -1,0 +1,13 @@
+mat-card{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+h5{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #6e798c;
+}

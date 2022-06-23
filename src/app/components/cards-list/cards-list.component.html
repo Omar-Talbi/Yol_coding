@@ -1,0 +1,13 @@
+
+<div fxLayout="row warp" fxLayoutGap="90px grid" class="content">
+  <app-card-item (onSelectCard)="showCard(animal)"
+    fxFlex="30%"
+    fxFlex.xs="100%"
+    fxFlex.sm="50%"
+    fxFlex.xl="25%"
+    *ngFor="let animal of Animals"
+    [animal]="animal"
+  ></app-card-item>
+</div>
+<app-button (click)="refreshCards()"></app-button>
+

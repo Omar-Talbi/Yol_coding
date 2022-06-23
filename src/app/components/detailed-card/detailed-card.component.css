@@ -1,0 +1,40 @@
+mat-card {
+  border-radius: 10px;
+  width: 90%;
+  height: 80vh;
+}
+.detailed-content-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mat-card-image {
+  object-fit: cover;
+  height: 20vh;
+}
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  color: #6e798c;
+}
+a {
+  margin: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background: #00cccc;
+  border-radius: 40px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}

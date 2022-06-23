@@ -1,0 +1,10 @@
+<mat-card class="mat-elevation-z4" (click)="expandCard(this.animal)" >
+    <img mat-card-image [src]='animal.avatar' /> 
+    <mat-card-content>
+      <div class="container">
+        <h3 class="pet-Name">{{animal.name}}</h3>
+        <h5 class="pet-Type">{{animal.type}}</h5>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  

@@ -1,0 +1,25 @@
+.content-button{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 48px 8px;
+  width: 260px;
+  height: 48px;
+  background: #00cccc;
+  border-radius: 100px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  margin: 7vh;
+}
+button:hover{
+    background:  linear-gradient(88.96deg, #00CCCC 4.35%, #0098C8 96.43%);
+}
